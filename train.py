@@ -17,8 +17,8 @@ import module
 # =                                   param                                    =
 # ==============================================================================
 
-py.arg('--dataset', default='horse2zebra')
-py.arg('--datasets_dir', default='datasets')
+py.arg('--dataset', default='trainingtest')
+py.arg('--datasets_dir', default='/kaggle/working/Croquis-Sketcher/datasets')
 py.arg('--load_size', type=int, default=286)  # load image to this size
 py.arg('--crop_size', type=int, default=256)  # then crop to this size
 py.arg('--batch_size', type=int, default=1)
